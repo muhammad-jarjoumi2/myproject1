@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MCC\\Desktop\\howework\\MvcTodoApp_SV\\MvcTodoApp_SV\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MvcTodoApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MvcTodoApp.euyg5lqjjk.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MvcTodoApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MvcTodoApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MvcTodoApp.props",
+      "PackagePath": "build\\MvcTodoApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MvcTodoApp.props",
+      "PackagePath": "buildMultiTargeting\\MvcTodoApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MvcTodoApp.props",
+      "PackagePath": "buildTransitive\\MvcTodoApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

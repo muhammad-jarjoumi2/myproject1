@@ -16,7 +16,9 @@ namespace MvcTodoApp.Controllers
         };
 
         /// <summary>
+        /// 
         /// يعرض القائمة الرئيسية للمهام.
+        /// 
         /// </summary>
         public IActionResult Index()
         {
@@ -24,7 +26,9 @@ namespace MvcTodoApp.Controllers
         }
 
         /// <summary>
+        /// 
         /// إضافة مهمة جديدة.
+        /// 
         /// </summary>
         [HttpPost]
         public IActionResult AddTask(string title)
@@ -39,14 +43,29 @@ namespace MvcTodoApp.Controllers
         }
 
         /// <summary>
+        /// 
         /// تعيين مهمة كمكتملة.
+        /// 
         /// </summary>
         [HttpPost]
         public IActionResult CompleteTask(int id)
         {
             var task = tasks.FirstOrDefault(t => t.Id == id);
             if (task != null)
-                task.IsComplete = true;
+            {
+                task.IsComplete = true; 
+            }
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult EditTask(int id , string newTitle)
+        {
+            var task = tasks.FirstOrDefault(x => x.Id == id);
+            if (task != null && 
+                !string.IsNullOrEmpty(newTitle))
+            {
+                task.Title = newTitle;
+            }
             return RedirectToAction("Index");
         }
     }

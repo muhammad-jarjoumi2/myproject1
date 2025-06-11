@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MvcTodoApp/MvcTodoApp.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MvcTodoApp.euyg5lqjjk.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Zg1VsuKe7u5R1LVLD2VpuMfmaftUsUmh9D37LPoUthI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1169"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Zg1VsuKe7u5R1LVLD2VpuMfmaftUsUmh9D37LPoUthI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 16:53:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MvcTodoApp/MvcTodoApp.euyg5lqjjk.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MvcTodoApp.euyg5lqjjk.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"euyg5lqjjk"},{"Name":"integrity","Value":"sha256-Zg1VsuKe7u5R1LVLD2VpuMfmaftUsUmh9D37LPoUthI="},{"Name":"label","Value":"_content/MvcTodoApp/MvcTodoApp.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1169"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Zg1VsuKe7u5R1LVLD2VpuMfmaftUsUmh9D37LPoUthI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 16:53:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
